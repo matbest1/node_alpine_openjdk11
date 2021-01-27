@@ -1,6 +1,7 @@
 FROM node:alpine3.12
 
 RUN  apk add --no-cache --update autoconf automake git gcc make g++ zlib zlib-dev pngquant shadow \
+    python2 \
     musl-dev \
     libtool \
     nasm \
